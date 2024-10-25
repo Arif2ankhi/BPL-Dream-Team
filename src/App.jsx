@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import './index.css'
+import Navbar from './Components/Navbar'
+import Banner from './Components/Banner/Banner'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
+    {/* Navbar */}
+    <Navbar></Navbar>
+    {/* banner  */}
+  <Banner></Banner>
       
-      <h1 className='text-6xl bg bg-red-800'>Dream Team </h1>
-     
     </>
   )
 }
