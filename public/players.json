@@ -6,7 +6,7 @@
         "specialty": "Batsman",
         "rating": 87,
         "price": 1200000,
-        "image-url": "https://i.ibb.co/xmrN98G/Aminul-islam-Bul-Bul.jpg"
+        "cover": "https://i.ibb.co/xmrN98G/Aminul-islam-Bul-Bul.jpg"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "specialty": "All-Rounder",
         "rating": 91,
         "price": 1500000,
-        "image-url": "https://i.ibb.co/8cKD2ZJ/Andrew-Flintof.jpg"
+        "cover": "https://i.ibb.co/8cKD2ZJ/Andrew-Flintof.jpg"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "specialty": "Bowler",
         "rating": 84,
         "price": 950000,
-        "image-url": "https://i.ibb.co/2tQgbBJ/Wasim-Akram.webp"
+        "cover": "https://i.ibb.co/2tQgbBJ/Wasim-Akram.webp"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "specialty": "Batsman",
         "rating": 78,
         "price": 850000,
-        "image-url": "https://i.ibb.co/ZHCfdfM/Ben-stokes.jpg"
+        "cover": "https://i.ibb.co/ZHCfdfM/Ben-stokes.jpg"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "specialty": "Wicketkeeper",
         "rating": 80,
         "price": 700000,
-        "image-url": "https://i.ibb.co/rsz3Ptr/Mushfiqur-Rahim.webp"
+        "cover": "https://i.ibb.co/rsz3Ptr/Mushfiqur-Rahim.webp"
     },
     {
         "id": 6,
@@ -51,6 +51,6 @@
         "specialty": "All-Rounder",
         "rating": 89,
         "price": 1350000,
-        "image-url": "https://i.ibb.co/DYFSHKj/Den-styen.webp"
+        "cover": "https://i.ibb.co/DYFSHKj/Den-styen.webp"
     }
 ]

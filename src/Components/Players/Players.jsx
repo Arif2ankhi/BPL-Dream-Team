@@ -3,7 +3,7 @@ import '../Player/Player';
 import Player from "../Player/Player";
 
 
-const Players = () => {
+const Players = ({}) => {
 // const [players, setPlayers] = useState([])
 const [players, setPlayers] = useState([]);
 
@@ -31,7 +31,11 @@ const [players, setPlayers] = useState([]);
             //     handleSelectPlayer={handleSelectPlayer}
             //     >
             //     </Player>)
-            players.map(player =><Player key={player.id} player={player}></Player>)
+            players.map(player =><Player key={player.id} player={player}
+                // handleSelectPlayer={handleSelectPlayer}
+            >
+
+            </Player>)
         }
         </div>
         

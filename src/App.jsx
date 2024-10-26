@@ -3,13 +3,18 @@ import './App.css'
 import './index.css'
 import Navbar from './Components/Navbar'
 import Banner from './Components/Banner/Banner'
-// import Title from './Components/Title/Title'
 import Players from './Components/Players/Players'
 import Footer from './Components/Footer/Footer'
+// import { useState } from 'react'
 
 
 
 function App() {
+
+
+  // const [credit, setCredit] = useState(0);
+  // const [selectedPlayers, setSelectedPlayers] = useState([]);
+  // const [view, setView] = useState('avalable')
  
 
   return (
@@ -18,7 +23,7 @@ function App() {
     <Navbar></Navbar>
   
   <Banner></Banner>
-  {/* <Title> </Title> */}
+  
   <Players></Players>
 
   <Footer></Footer>

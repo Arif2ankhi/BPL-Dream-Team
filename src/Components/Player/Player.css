@@ -1,0 +1,54 @@
+.player-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 20px;
+}
+
+.player-card{
+    width: 100%;
+}
+
+#name-logo{
+    width: 35px;
+    height: 35px;
+}
+
+.player-image{
+    height: 250px;
+    width: 100%;
+}
+
+.player-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.player-country{
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+}
+#country-image{
+    height: 5px;
+    width: 10px;
+}
+.role{
+    font-size: 12px;
+    border: 2px solid grey;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+
+.role:hover{
+    background: #1384b1;
+}
+.btn-select:hover{
+    background: #127391;
+}
+
+.price{
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(82, 52, 52) ;
+}
