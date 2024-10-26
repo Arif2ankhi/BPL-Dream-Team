@@ -1,9 +1,9 @@
-
+// import PropTypes from 'prop-types';
 import './App.css'
 import './index.css'
 import Navbar from './Components/Navbar'
 import Banner from './Components/Banner/Banner'
-import Title from './Components/Title/Title'
+// import Title from './Components/Title/Title'
 import Players from './Components/Players/Players'
 import Footer from './Components/Footer/Footer'
 
@@ -18,7 +18,7 @@ function App() {
     <Navbar></Navbar>
   
   <Banner></Banner>
-  <Title> </Title>
+  {/* <Title> </Title> */}
   <Players></Players>
 
   <Footer></Footer>
@@ -29,5 +29,6 @@ function App() {
     </>
   )
 }
+
 
 export default App

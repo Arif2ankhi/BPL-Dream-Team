@@ -24,7 +24,7 @@ const Navbar = () => {
 
             </ul>
                 <button className=' flex
-                border-2 border-slate-400 rounded-xl px-6 py-2 m-4 bg-white gap-2'><span>0</span> Coin  <span> 
+                border-2 border-slate-400 rounded-xl px-6 py-2 m-4 bg-white gap-2'><span>0</span> Coin <span> 
                 <img src="../../src/assets/coin.png" alt="" />
                 </span></button>
         </nav> 
