@@ -18,11 +18,9 @@ const [players, setPlayers] = useState([]);
     return (
         <div className="mt-4 w-9/12 mx-auto">
             <div className="flex justify-start items-center ">
-                <h3 className="text-2xl font-bold">Available Players : {players.length}</h3>
-                {/* <div className="flex border rounded-lg">
-                <a className="py-3 bg-[#dbe678] rounded-1 px-3 font-bold" href="">Available</a>
-                <a className="rounded-r p-3 font-bold" href="">Selected (0)</a>
-            </div> */}
+                {/* <h3 className="text-2xl font-bold">Available Players : {players.length}</h3> */}
+                <h3 className="text-2xl font-bold">Available Players</h3>
+                
                            
         </div>
 

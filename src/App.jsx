@@ -31,14 +31,14 @@ function App() {
     })
   
   }
-  // Add a player from selected plareys arrya
+  // Add a player
   const handleSelectPlayer =(player) => {
     if(selectedPlayers.length <6 && !selectedPlayers.some(p => p.id ===player.id)) {
       setSelectedPlayers((prevSelected) => [...prevSelected, player])
     }
   }
 
-  // Remove a player from the selected array
+  // Remove a player 
   const handleRemovePlayer = (player) =>{
     setSelectedPlayers((prevSelected) => prevSelected.filter((p)=> p.id !== player.id ))
   }
