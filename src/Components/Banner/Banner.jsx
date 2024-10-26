@@ -1,6 +1,6 @@
 
 
-const Banner = ({handleCreditClaim}) => {
+const Banner = ({handleClaimCoin}) => {
     return (
     <header className="w-9/12 mx-auto">
         <div
@@ -16,7 +16,7 @@ const Banner = ({handleCreditClaim}) => {
             <p className="font-bold text-xl text-gray-400 mt-2">Beyond Boundaries Beyond Limits</p>
            
             <button className="ring-2 ring-yellow-400 ring-offset-4 ring-offset-yellow-500
-             dark:ring-offset-black bg-yellow-500 font-bold rounded-xl p-2 mt-4 mb-8" onClick= {handleCreditClaim}>
+             dark:ring-offset-black bg-yellow-500 font-bold rounded-xl p-2 mt-4 mb-8" onClick= {handleClaimCoin}>
             Claim Free Credit
 </button>
 

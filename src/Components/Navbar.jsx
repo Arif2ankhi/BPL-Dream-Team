@@ -12,14 +12,10 @@ const Navbar = ({coin}) => {
             <li><a>Fixtures</a></li>
             <li><a>Teams </a></li>
             <li><a>Schedules</a></li>
-            <li className='border border-solid flex border-slate-400 rounded-md p-1 font-semibold text-black text-base'>{coin} coins <img width="20" height="20" src="https://img.icons8.com/emoji/48/coin-emoji.png" alt="coin-emoji"/></li>
+            <p className='border border-solid flex border-slate-400 rounded-md p-1 font-semibold text-black text-base'>{coin} coins <img width="20" height="20" src="https://img.icons8.com/emoji/48/coin-emoji.png" alt="coin-emoji"/></p>
 
             </ul>
-                {/* <button className=' flex
-                border-2 border-slate-400 rounded-xl px-6 py-2 m-4 bg-white gap-2'><span>0</span> Coin <span> 
-                <img src="../../src/assets/coin.png" alt="" />
-                </span></button> */}
-
+              
 
         </nav> 
     );
