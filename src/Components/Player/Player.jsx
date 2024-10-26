@@ -10,7 +10,8 @@ const Player = ({player, handleSelectPlayer}) => {
                 <img className='player-image rounded-lg' src={cover} alt=""/>
                 {/* name */}
                 <div className='flex gap-2 mt-2 items-center'>
-                    <img id='name-logo' src="/src/assets/playerlogo.jpg" alt=""/>
+                    {/* <img id='name-logo' src="/src/assets/playerlogo.jpg" alt=""/> */}
+                    <img id='name-logo' src="https://i.ibb.co/pXP4jnd/playerlogo.jpg" alt=""/>
                     <h1 className='player-name'>{name}</h1>
                 </div>
                 {/* nationality and role */}
