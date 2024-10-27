@@ -30,7 +30,7 @@ const Selected = ({playersSelected, playerRemoved, viewToggle}) => {
                                 </div>
                             </div>
                             <button onClick={()=>playerRemoved(player)} className="btn-delete">
-                            <img  className="text-red-600"src="https://img.icons8.com/ios-glyphs/30/delete-sign.png" alt="delete" />
+                            <img src="https://img.icons8.com/ios-glyphs/30/delete-sign.png" alt="delete" />
                             </button>
                         </div>
                     ))}

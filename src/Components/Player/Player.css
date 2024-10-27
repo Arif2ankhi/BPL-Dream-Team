@@ -54,3 +54,7 @@
     font-weight: bold;
     color:rgb(82, 52, 52) ;
 }
+
+.btn-delete{
+    color: crimson;
+}
