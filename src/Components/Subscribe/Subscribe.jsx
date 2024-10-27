@@ -3,7 +3,7 @@ import React from 'react'
 export default function Subscribe() {
   return (
     <div className='relative mb-[40px] ml-[500px]  '>
-            <div className=" w-8/12 absolute top-[100px] rounded-lg p-4 bg-gradient-to-r from-blue-200 via-white to-orange-200 text-center 
+            <div className=" w-8/12 absolute top-[80px] rounded-lg p-4 bg-gradient-to-r from-blue-200 via-white to-orange-200 text-center 
             ring-2 ring-white ring-offset-4 ring-offset-gray-200
              dark:ring-offset-gray bg-gray-200
             ">
