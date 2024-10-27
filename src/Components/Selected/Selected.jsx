@@ -1,6 +1,15 @@
 import Player from "../Player/Player";
 
 const Selected = ({playersSelected, playerRemoved, viewToggle}) => {
+
+    const handleRemovePlayer =(player) => {
+        playerRemoved(player);
+
+        if(playersSelected.length === 1){
+            window.location.reload();
+        }
+    }  
+
     return (
         <div className="w-9/12 mx-auto mt-3 rounded-lg p-3">
             <h3 className="text-1xl font-bold">
@@ -29,7 +38,7 @@ const Selected = ({playersSelected, playerRemoved, viewToggle}) => {
                         className="py-2 mt-4 bg-['dbe678] border round font-bold bg-green-500 rounded 2xl p-4 text-black"> Add More</button>
                 </div>
             ) : (
-                <p>No Players selected yet.</p>
+                <p className="text-cyan-600 font-bold">No Players selected yet.</p>
                 )}
         </div>
     );

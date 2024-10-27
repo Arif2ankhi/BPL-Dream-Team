@@ -2,7 +2,7 @@
 
 const Navbar = ({coin}) => {
     return (
-        <nav className="w-9/12  flex mx-auto justify-between items-center p-5 ">
+        <nav className="w-9/12  flex mx-auto justify-between items-center p-5 sticky top-0">
             <div>
             <img src="../assets/logo.png" alt="" />
                 
