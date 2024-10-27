@@ -28,5 +28,7 @@ Notification: User can have an brief idea from  about their budget , the player 
 
 ## Project live link 
 
+### Live Link: https://bpl-dream-squad.netlify.app/?
+
 
 #  🏏Thank You 🏏
