@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer'
 import Selected from './Components/Selected/Selected'
 import { ToastContainer, toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import Subscribe from './Components/Subscribe/Subscribe'
 
 
 
@@ -29,24 +30,10 @@ function App() {
        }
 
   };
-  // can be delete later
-  // const viewToggle = (toggle) => {
-  //   setToggle(toggle);
-  // }
-
-          // coin added main function 
-          
-  // const handleClaimCoin = () =>{
-  //   setCoin(previousCoin => {
-  //     const newCoin = previousCoin + 700000;
-  //     // toast.success('coins added successfully');
-  //     return newCoin;
-
-  //   })
 
   const handleClaimCoin = () =>{
 
-    setCoin((previousCoin) => previousCoin + 700000)
+    setCoin((previousCoin) => previousCoin + 1000000)
     toast.success('Coins added successfully',{
       position:'top-center',
       autoClose: 2000,
@@ -57,25 +44,53 @@ function App() {
   };
 
 
-
-
-
   // Add a player
   const handleSelectPlayer =(player) => {
-    if(selectedPlayers.length <6 && !selectedPlayers.some(p => p.id ===player.id)) {
-      setSelectedPlayers((prevSelected) => [...prevSelected, player])
-      toast.success(`Congratulation! You bought ${player.name}`,{
-        position:"top-right",
-        autoClose: 2500,
+    // error message
+    if(coin === 0){
+      toast.error('You do not have enough balance.Please claim it first',{
+        position:'top-center',
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick:true,
+          
+      });
 
-      })
+    }else if (selectedPlayers.some(p=> p.id === player.id)){
+      toast.info(`You already bought  ${player.name}`,{
+        position:'top-center',
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick:true,
+
+      });
+    
+  
+
+    } else if(selectedPlayers.length <6 )
+      if(coin >= player.price) {
+      setCoin((prevCoin) => prevCoin -player.price);
+      setSelectedPlayers((prevSelected) => [...prevSelected, player])
+      toast.success(`Congratulations! You bought ${player.name} for ${player.price} coins`,{
+      position:"top-right",
+      autoClose: 2000,
+
+      });
     }
-  }
+  };
 
   // Remove a player 
   const handleRemovePlayer = (player) =>{
+
+    setCoin((prevCoin) => prevCoin + player.price);
     setSelectedPlayers((prevSelected) => prevSelected.filter((p)=> p.id !== player.id ))
-  }
+    toast.info(`Removed ${player.name}. ${player.price} coins refunded.`,{
+      position:'top-center',
+      autoClose: 2000,
+      theme: 'colored',
+
+    });
+  };
 
 
   return (
@@ -104,12 +119,12 @@ function App() {
   <ToastContainer></ToastContainer>
   
  
-
+  <Subscribe/>
   <Footer></Footer>
-      
+  
     </>
   )
-}
+};
 
 export default App
 

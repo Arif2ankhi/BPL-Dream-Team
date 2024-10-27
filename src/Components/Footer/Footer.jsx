@@ -2,17 +2,17 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='bg-black h-full w-full mt-5'>
+        <div className='bg-black  w-full mt-[200px]'>
          <div className='pt-20 flex flex-col items-center justify-center text-center'>
-         <img src="https://i.ibb.co.com/WFBg9kj/logo-footer.png" alt="" className='outline-dashed p-4' />
+         <img src="https://i.ibb.co.com/WFBg9kj/logo-footer.png" alt="" className='' />
          </div>
          <div className='ml-10 mt-20 pb-6 flex justify-between mr-10 items-center'>
             <div>
-            <h3 className='text-white font-semibold text-lg'>About Us</h3>
+            <h3 className='text-white font-semibold text-xl'>About Us</h3>
             <p className='text-white opacity-[50%] text-base'>We are a passionate team <br /> dedicated to providing the best <br /> services to our customers.</p>
             </div>
             <div>
-                <h3 className='text-white font-semibold text-lg'>Quick Links</h3>
+                <h3 className='text-white font-semibold text-xl'>Quick Links</h3>
                 <ul className='grid grid-cols-1 text-white opacity-[50%] text-base'>
                     <li>Home</li>
                     <li>Service</li>
@@ -22,7 +22,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <h3 className='text-white font-semibold text-lg'>Subscribe</h3>
+                <h3 className='text-white font-semibold text-xl'>Subscribe</h3>
                 <p className=' text-white opacity-[50%] text-base'>Subscribe to our newsletter for the <br /> latest updates.</p>
                 <form className="flex justify-center items-center gap-4 mt-3">
                     <input
@@ -36,8 +36,15 @@ const Footer = () => {
                 </form>
             </div>
          </div>
+         <div>
+                
+            </div>
+
         </div>
+        
     );
+
+    
 };
 
 export default Footer;

@@ -12,7 +12,10 @@ const Navbar = ({coin}) => {
             <li><a>Fixtures</a></li>
             <li><a>Teams </a></li>
             <li><a>Schedules</a></li>
-            <p className='border border-solid flex border-slate-400 rounded-md p-1 font-semibold text-black text-base'>{coin} coins <img width="20" height="20" src="https://img.icons8.com/emoji/48/coin-emoji.png" alt="coin-emoji"/></p>
+            <p className='border border-solid flex border-slate-400
+             rounded-md p-1 font-semibold text-cyan-700 text-base'>
+            {coin} Coins <img width="24" height="24 P-2" 
+            src="https://img.icons8.com/emoji/48/coin-emoji.png" alt="coin-emoji"/></p>
 
             </ul>
               

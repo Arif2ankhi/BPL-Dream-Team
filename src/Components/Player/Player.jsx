@@ -12,12 +12,18 @@ const Player = ({player, handleSelectPlayer}) => {
                 <div className='flex gap-2 mt-2 items-center'>
                     {/* <img id='name-logo' src="/src/assets/playerlogo.jpg" alt=""/> */}
                     <img id='name-logo' src="https://i.ibb.co/pXP4jnd/playerlogo.jpg" alt=""/>
-                    <h1 className='player-name'>{name}</h1>
+                    <h1 className='player-name text-green-950'>{name}</h1>
                 </div>
                 {/* nationality and role */}
                 <div className='flex justify-between items-center space-x-4 mt-2'>
                     <div className='flex gap-2 player-country items-center '>
-                    <p> <i className="fa-solid fa-flag"></i>{country}</p>
+                    <div className='flex gap-4'>
+                     <i className="fa-solid fa-flag text-red-400"></i>
+                     <p className='text-green-900'> {country}</p>
+
+                     </div>
+                    
+                    
                     </div>
                     <button className='role rounded bg-[#f3f3f3]'>{specialty}</button>
                 </div>
@@ -31,6 +37,7 @@ const Player = ({player, handleSelectPlayer}) => {
 
                 <div className='flex justify-between'>
                     <p className='price'>Price : ${price}</p>
+
                     <button className='role btn-select rounded'
                     onClick={()=>handleSelectPlayer(player)}>Choose Player</button>
                 </div>
