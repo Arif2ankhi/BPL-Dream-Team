@@ -2,11 +2,11 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='bg-black  w-full mt-[200px]  border-4 border-solid border-red-600'>
+        <div className='bg-black  w-full mt-[200px]'>
          <div className='pt-20 flex flex-col items-center justify-center text-center'>
          <img src="https://i.ibb.co.com/WFBg9kj/logo-footer.png" alt="" className='' />
          </div>
-         <div className='ml-10 mt-10 pb-6 flex justify-between mr-10 items-center'>
+         <div className='ml-10 mt-8 pb-6 flex justify-between mr-10 items-center'>
             <div>
             <h3 className='text-white font-semibold text-xl'>About Us</h3>
             <p className='text-white opacity-[50%] text-base'>We are a passionate team <br /> dedicated to providing the best <br /> services to our customers.</p>
@@ -36,12 +36,12 @@ const Footer = () => {
                 </form>
             </div>
          </div>
-         <div className=' mb-20'>
+         <div className=''>
             
             <hr />
     
                 
-            <p className='text-center text-white border-solid border-green-600 border-4  font-extrabold mt-6'
+            <p className='text-center text-white font-semibold  p-8'
             >@2024 Your Company All Rights Reserved</p>
             </div>
      </div>
