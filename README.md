@@ -26,6 +26,14 @@ Credit Claim:  User can  claim free credit to to buy the player the like most.
 Selection Category: User had an option to select their favourite player , they believe to wil the title.
 Notification: User can have an brief idea from  about their budget , the player they want to buy his availability with the budget and overall from the smooth interface User can mover everywhere in the site. 
 
+# Repo link: https://github.com/programming-hero-web-course1/b10a7-dream-11-Arif2ankhi
+
+Public repo link :
+
+# https://github.com/Arif2ankhi/BPL-Dream-Team
+
+
+
 ## Project live link 
 
 ### Live Link: https://bpl-dream-squad.netlify.app/?
